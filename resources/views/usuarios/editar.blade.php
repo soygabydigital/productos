@@ -22,7 +22,7 @@
                             </button>
                             </div> 
                             @endif 
-                            @endif
+                         
 
                             {!! Form::model($user,['method'=>'PUT','route'=>['usuarios.update',$user->id]]) !!}
                                 <div class="row">
